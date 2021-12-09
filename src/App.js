@@ -1,30 +1,12 @@
-import { Layout, Menu } from 'antd';
-import {
-  UserOutlined,
-} from '@ant-design/icons';
+import { Layout } from 'antd';
+
 import './app.css'
 import Home from './Components/Home';
-const { Header, Content, Footer, Sider } = Layout;
+const { Header, Content, Footer } = Layout;
 export default function App() {
   
   return (
     <Layout>
-    {/* <Sider
-      style={{
-        overflow: 'auto',
-        height: '100vh',
-        position: 'fixed',
-        left: 0,
-      }}
-    >
-      <div className="logo" />
-      <Menu theme="dark" mode="inline" defaultSelectedKeys={['4']}>
-        <Menu.Item key="1" icon={<UserOutlined />}>
-          Khách hàng
-        </Menu.Item>
-       
-      </Menu>
-    </Sider> */}
     <Layout className="site-layout" style={{ }}>
       <Header className="site-layout-background" style={{ paddingLeft: 20 }} >
         <h2>Danh sách ảnh</h2>
